@@ -4,6 +4,7 @@
 
 int main()
 {
+    //methode main
     Interval interva1(1.5,0);
     interva1.consulter();
     std::cout << "le maximum est " << interva1.valeur_max() << "\n";
